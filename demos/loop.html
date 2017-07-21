@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telphone=no, email=no" >
+	<title>touch轮播</title>
+	<link rel="stylesheet" href="../dist/css/style.css">
+</head>
+<body>
+	<div class="swiper-container box">
+		<div class="swiper-wrapper">
+			<img src="../img/1.jpg" alt="" class="swiper-slide">
+			<img src="../img/2.jpg" alt="" class="swiper-slide">
+			<img src="../img/3.jpg" alt="" class="swiper-slide">
+			<img src="../img/4.jpg" alt="" class="swiper-slide">
+		</div>
+		<div class="swiper-btn">
+			
+		</div>
+	</div>
+	<script src="../dist/js/swiper.js"></script>
+	<script>
+		var p=new Myswiper(".box",{
+			loop:true
+		})
+	 </script>
+</body>
+</html>
